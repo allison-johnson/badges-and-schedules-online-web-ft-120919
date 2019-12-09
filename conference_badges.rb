@@ -20,3 +20,8 @@ def assign_rooms(speakers)
   end #each
   rooms
 end #method assign_rooms
+
+def printer(names)
+  puts batch_badge_creator(names)
+  puts assign_rooms(names)
+end #method printer
